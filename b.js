@@ -413,7 +413,7 @@ function next(){
        wrong_ans+=1;
        localStorage.attempts=attempts;
        localStorage.wrong_ans=wrong_ans
-    
+       localStorage.focus_option="";
     }
     
     clearInterval(interval)
@@ -451,7 +451,7 @@ function last_submit_button(){
        localStorage.score=score;
        localStorage.wrong_ans=wrong_ans
    } 
-   else if(localStorage.focus_option!=questions[count].correct_option && localStorage.focus_option!=""){
+   else if(localStorage.focus_option!=""){
     attempts+=1;
     wrong_ans+=1;
     localStorage.attempts=attempts;
@@ -465,7 +465,7 @@ function timer(){
     time=t;
     interval=setInterval(() => {
         if(t>0){
-            countdown.textContent=`   ${t} sec`
+            countdown.textContent=` ${t} sec`
              t--;
         }
         else if(t==0){

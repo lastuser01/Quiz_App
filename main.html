@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="icon" href="./images/logo_1.jpg" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer">
+        <div>
+          <i class="fa-regular fa-clock"></i>&nbsp;
+          <span id="countdown"></span>
+        </div>
+        <span id="q_count"></span>
+      </div>
+      <h1 id="category"></h1>
+      <div class="hr" style="color: red"></div>
+      <h3 id="question"></h3>
+      <div class="option">
+        <button class="options" id="option1"></button>
+        <button class="options" id="option2"></button>
+        <button class="options" id="option3"></button>
+        <button class="options" id="option4"></button>
+      </div>
+
+      <button id="next" onclick="next()">NEXT QUESTION</button>
+      <a href="./result.html"
+        ><button id="sub" onclick="last_submit_button()">Submit</button></a
+      >
+    </div>
+    <script src="./b.js"></script>
+  </body>
+</html>

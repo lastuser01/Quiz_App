@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #ffffff;
+}
+
+.container {
+    height: 520px;
+    width: 660px;
+    margin: auto;
+    margin-top: 90px;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    box-shadow: 0 0 15px rgb(215, 42, 42);
+    box-sizing: border-box;
+}
+
+.timer {
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    border: 2px solid red;
+    border-radius: 35px;
+    width: 270px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#next,
+#sub {
+    background-color: red;
+}
+
+/* .options:hover {
+    background-color: red;
+} */
+
+.options:active {
+    background-color: rgb(238, 117, 117);
+}
+
+
+#next:active,
+#sub:active {
+    background-color: #cb6464;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 10px;
+}
+
+.options:focus {
+    background-color: red;
+}
+
+p {
+    width: 555px;
+}
+
+#sub {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hr {
+    width: 550px;
+    border-top: 2px solid red;
+}

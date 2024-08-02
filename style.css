@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: #ffffff;
+    position: relative;
+}
+
+.container {
+    height: 520px;
+    width: 660px;
+    margin: auto;
+    margin-top: 90px;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 45px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(215, 42, 42);
+}
+
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    position: relative;
+}
+
+.button {
+    padding: 11px;
+    background-color: red;
+    border: none;
+    border-radius: 35px;
+    width: 150px;
+}
+
+.o_button {
+    border: 2px solid red;
+    border-radius: 35px;
+    width: 250px;
+    padding: 12px;
+}
+
+.o_button:hover {
+    background-color: red;
+}
+
+button:active,
+.o_button:active {
+    background-color: rgb(255, 125, 125);
+}
+
+hr {
+    width: 500px;
+}
+
+input {
+    border: 1.5px solid red;
+    border-radius: 35px;
+    padding: 11px;
+    width: 95%;
+    text-align: center;
+}
+
+input:focus {
+    border: 1.5px solid red;
+    outline: none;
+    text-align: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.buttons_o {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}

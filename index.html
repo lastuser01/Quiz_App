@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="icon" href="./images/logo_1.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_1">
+        <h1 id="heading">Hello User!</h1>
+
+        <input
+          type="text"
+          class="input"
+          placeholder="Enter your name "
+          id="input"
+        />
+        <button class="button" onclick="gello()">ENTER</button>
+
+        <hr />
+      </div>
+      <div class="container_2">
+        <h1>Select Category</h1>
+        <div class="buttons_o">
+          <a href="" id="gk_link"
+            ><button class="o_button" onclick="gk_in()">
+              General Knowledge
+            </button></a
+          >
+          <a href="" id="music_link"
+            ><button class="o_button" onclick="music_in()">Music</button></a
+          >
+          <a href="" id="sports_link"
+            ><button class="o_button" onclick="sports_in()">Sports</button></a
+          >
+          <a href="" id="film_link"
+            ><button class="o_button" onclick="film_in()">
+              Film and television
+            </button></a
+          >
+        </div>
+        <p>You'll have 15 seconds to answer each question</p>
+      </div>
+    </div>
+
+    <script src="a.js"></script>
+  </body>
+</html>

@@ -95,12 +95,14 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+
+
     .container {
         width: 90%;
-        height: auto;
+        height: 95vh;
         margin: auto;
-        margin-top: 2%;
-
+        margin-top: 2.5vh;
+        overflow: scroll;
     }
 
     hr {

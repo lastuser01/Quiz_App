@@ -89,9 +89,8 @@ a {
         width: 90%;
         height: 95vh;
         margin: auto;
-        margin-top: 2%;
-        box-sizing: border-box;
-        gap: 5%;
+        margin-top: 2.5vh;
+        overflow: scroll;
 
     }
 

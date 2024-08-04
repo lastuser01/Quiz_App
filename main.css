@@ -87,7 +87,7 @@ a {
 @media (max-width:600px) {
     .container {
         width: 90%;
-        height: auto;
+        height: min-content;
         margin: auto;
         margin-top: 5vh;
         margin-bottom: 5vh;

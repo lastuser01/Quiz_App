@@ -93,3 +93,21 @@ button:hover {
 a {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        height: auto;
+
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .buttons_o {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

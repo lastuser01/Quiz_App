@@ -83,3 +83,31 @@ a {
     width: 550px;
     border-top: 2px solid red;
 }
+
+@media (max-width:600px) {
+    .container {
+        width: 90%;
+        height: 95vh;
+        margin: auto;
+        margin-top: 2%;
+        box-sizing: border-box;
+        gap: 5%;
+
+    }
+
+    .hr {
+        width: 100%;
+    }
+
+
+    .timer {
+        width: 100%;
+    }
+
+    .option {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

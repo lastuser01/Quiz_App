@@ -52,3 +52,28 @@ h1 {
     width: 550px;
     border-top: 2px solid red;
 }
+
+@media(max-width:600px) {
+    .container {
+        width: 90%;
+        height: 90vh;
+        margin: auto;
+        margin-top: 7%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hr {
+        width: 100%;
+    }
+
+
+    .timer {
+        width: 100%;
+    }
+
+
+}

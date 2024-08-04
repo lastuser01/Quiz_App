@@ -87,11 +87,10 @@ a {
 @media (max-width:600px) {
     .container {
         width: 90%;
-        height: 95vh;
+        height: auto;
         margin: auto;
-        margin-top: 2.5vh;
-        overflow: scroll;
-
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
 
     .hr {

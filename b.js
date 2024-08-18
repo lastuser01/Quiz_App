@@ -314,7 +314,7 @@ let sports_options=[
         question:"5. Who is the only Indian male boxer to win a medal at the Olympics?",
         option1:"A) Manoj Kumar",
         option2:"B) Mary Kom",
-        option3:"B) Mary Kom",
+        option3:"B) Vikas Krishan Yadav",
         option4:"D) Vijender Singh ",
         correct_option:"D) Vijender Singh ",
     },
